@@ -1,0 +1,27 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "notetaker",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hhhhhaaaa/notetaker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hhhhhaaaa/notetaker/issues"
+  },
+  "homepage": "https://github.com/hhhhhaaaa/notetaker#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
