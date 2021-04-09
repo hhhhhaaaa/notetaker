@@ -46,6 +46,10 @@ app.get("/assets/css/styles.css", (req, res) => {
   res.sendFile(path.join(__dirname, "./public/assets/css/styles.css"));
 })
 
+app.get("/assets/db/db.json", (req, res) => {
+  res.sendFile(path.join(__dirname, "./db/db.json"));
+})
+
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "./public/index.html"));
 });
